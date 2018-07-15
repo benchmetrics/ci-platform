@@ -26,5 +26,6 @@ Resources:
               - ec2:ModifyInstanceAttribute
               - ec2:ReplaceRoute
               - ec2:associateAddress
+              - ec2:disassociateAddress
               Resource: '*'
               Effect: Allow
