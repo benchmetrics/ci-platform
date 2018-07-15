@@ -277,7 +277,6 @@ Resources:
       InstanceId: !Ref NatImage
       RouteTableId: !Ref NatRouteTable
       DestinationCidrBlock: 0.0.0.0/0
-      GatewayId: !Ref InternetGateway
   NatSubnetAZ1RouteTableAssociation:
     Type: AWS::EC2::SubnetRouteTableAssociation
     Properties:
