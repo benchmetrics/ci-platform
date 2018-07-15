@@ -11,17 +11,4 @@ service:
       disabled: true
 extensions:
   - url: backend-service
-templates:
-  mu-92-vpc-acceptance:
-    - Resources:
-      NatAZ1:
-        DependsOn: VPCInternetGateway
-        Type: AWS::EC2::Instance
-        Properties:
-          AllocationId: !GetAtt EipAZ1.AllocationId
-          SubnetId: !Ref NatSubnetAZ1
-          SourceDestCheck: false
-          ImageId: ami-980554e7
-          InstanceType: t2.micro
-
-
+  - url: vpc
