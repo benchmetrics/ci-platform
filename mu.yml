@@ -11,4 +11,4 @@ service:
       disabled: true
 extensions:
   - url: backend-service
-  - url: vpc
+  # - url: vpc
