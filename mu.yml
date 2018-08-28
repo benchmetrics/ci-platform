@@ -9,6 +9,6 @@ service:
       disabled: true
     production:
       disabled: true
-extensions:
-  - url: backend-service
+# extensions:
+  # - url: backend-service
   # - url: vpc
