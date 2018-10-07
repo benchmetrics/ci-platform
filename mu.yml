@@ -10,7 +10,7 @@ environments:
     loadbalancer:
       hostedzone: benchmetrics.app
       name: api-staging
-      certificate: cd156a14-ccae-4345-b162-d7d4d70ce337
+      certificate: 5b940790-efbc-44c0-9a80-8df04677f653
 
   - name: production
     provider: ecs-fargate
@@ -22,5 +22,5 @@ environments:
     loadbalancer:
       hostedzone: benchmetrics.app
       name: api
-      certificate: cd156a14-ccae-4345-b162-d7d4d70ce337
+      certificate: 5b940790-efbc-44c0-9a80-8df04677f653
 
