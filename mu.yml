@@ -13,7 +13,7 @@ environments:
       certificate: 5b940790-efbc-44c0-9a80-8df04677f653
 
   - name: production
-    provider: ecs-fargate
+    provider: ecs
     cluster:
       desiredCapacity: 1
       minSize: 1
