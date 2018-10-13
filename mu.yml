@@ -1,7 +1,7 @@
 ---
 environments:
   - name: acceptance
-    provider: ecs
+    provider: ecs-fargate
     cluster:
       desiredCapacity: 1
       minSize: 1
@@ -10,7 +10,7 @@ environments:
     loadbalancer:
       hostedzone: benchmetrics.app
       name: api-staging
-      certificate: 5b940790-efbc-44c0-9a80-8df04677f653
+      certificate: d83f0060-70a6-43aa-b5cf-d5abbad35bcb
 
   - name: production
     provider: ecs
